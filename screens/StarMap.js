@@ -27,11 +27,11 @@ export default class StarMapScreen extends Component {
             />
              <TextInput 
                  style={{height: 40, borderColor: 'gray', borderWidth: 1,}}
-                  placeholder='Enter Your Latitute'
+                  placeholder='Enter Your Longnitute'
                   placeholderTextColor= "#ffff#000000"
                    onChangeText={(text)=>{
                        this.setState({
-                        latitute: text
+                        longnitude: text
                        })
                    }}
                    />
